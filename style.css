@@ -1,24 +1,38 @@
-.leftphotos{
-    display: block;
-    margin-left:auto;
+body{
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
-.rightphotos{
-    display: block;
-    margin-right: auto;
-    text-align: right;
+header{
+  padding: 10px;
+  text-align: center;
 }
-.mainphoto{
-display: block;
-margin-left: auto;
-margin-right: auto;
+.container{
+  position: relative;
+  width: 100%;
+  height: 60%;
+
 }
-.columns{
-    border: solid 2px rgb(0, 0, 0);
-    display: flex;
-    color: aliceblue;
+.left-photo{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-.linkedin{
-    text-align: center;
-    display: block;
-    margin-top: auto;    
+.center-photo{
+  display: block;
+  margin: auto;
+}
+.right-photo{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bio{
+  text-align: center;
+  margin-top: 10px;
+}
+.links{
+  text-align: center;
+  margin-top: 10px;
 }
